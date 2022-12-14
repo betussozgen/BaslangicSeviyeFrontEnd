@@ -1,13 +1,151 @@
-<!--CTRL + Ö satırı commente alıyor.-->
-<!-- ÖDEV 1 -->
+<!--
+    LİSTELER:
+    1- Sıralı Listeler: Ordered List: <ol></ol>
 
-<!--Siteyi açtığımızda adınız ve soyadınızı başlık şeklinde göstermeniz gerekiyor.-->
-<h1>Fatma Betül Özgen</h1>
-<!-- Ad-Soyadın altında alt başlık olarak Hakkımda yazmalıdır. -->
-<h2>Hakkımda</h2>
-<!--Altına paragraf içerisinde neler yaptığınızı ve nelerden hoşlandığınızı yazabilirsiniz.-->
-<p>Merhaba ben Fatma Betül Özgen. istanbul'da yaşıyorum. Şu an Patika.dev in Front-End patikasına çalışıyorum.</p>
-<h3>Sevdiğim Yemekler</h3>
-<li>Dolma</li>
-<li>Fasulye</li>
-<li>Köfte</li>
+            <ol>
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+            </ol>   
+
+        Listeyi 1-2-3 diye sıralandırmak yerine: 
+        <ol type: "a">deneme</ol>  tırnak işareti yerine: I,i,a,A yazabilirsin.
+
+            <ol type: "A">
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+            </ol>   
+
+    2- Sırasız Listeler: Unordered List: <ul></ul>
+
+            <ul>
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+
+            </ul>
+
+        Listeyi daha farklı şekillerde kullanabilmek için:
+        <ul style="list-style-type: square">deneme</ul> square yerine: disc, circle yazabilirsin.
+
+            <ul style="list-style-type: disc">
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+
+            </ul>
+
+        Listede şekilsiz olması için:
+        <ul style="list-style-type: none">deneme</ul>
+
+            <ul style="list-style-type: none">
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+            </ul>
+
+    ÖNEMLİ: <li></li> kullanmadan liste şeklinde göremezsin!
+
+-->
+
+
+
+
+<!--
+    EMMET İLE HIZLI HTML YAPILARI OLUŞTURMA:
+    https://docs.emmet.io/cheat-sheet/
+
+    + Kardes oge
+    > icinde oge
+    ^ yukari cik ve oge olustur
+    * carp  p*3
+    lorem  anlamsız metin yazısı oluşturabilirsin.
+        lorem1 lorem2 gibi yanına sayı belirtirsen o kadar kelime koyar.
+    . class
+    # id
+
+
+    ÖRNEKLER:
+
+    h1+p+p+h2+p+p+p+p
+
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <h2></h2>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+
+    h1+p+p+h2+p+p+p+p ---kısa hali--- h1+p*2+h2+p*4
+
+    <p></p>
+    <p></p>
+    <h2></h2>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    ul>li*5
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+    ul>li*3^p*2+h3
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <p></p>
+    <p></p>
+    <h3></h3>
+
+    ul>li*3>lorem1^p*2>lorem4+h3>lorem1
+
+    <ul>
+    <li>Lorem.</li>
+    <li>Consequuntur.</li>
+    <li>Porro.</li>
+    <p>
+        Lorem ipsum dolor sit.
+        <h3>Lorem.</h3>
+    </p>
+    <p>
+        Quisquam dolores cumque dicta.
+        <h3>Minima.</h3>
+    </p>
+    </ul>
+
+    BU YUKARIDAKİ HATALI ONUN YERİNE:
+    
+    ul>li*3>lorem1^^p*2>lorem^h3>lorem1
+
+
+
+
+
+
+
+
+-->
+
+<ul>
+    <li>Lorem.</li>
+    <li>Reprehenderit.</li>
+    <li>Dolorem?</li>
+</ul>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quae quasi, qui, dignissimos provident optio vero ad porro cupiditate ratione eveniet magni laborum labore error neque assumenda rem accusantium officia?</p>
+<p>Ipsa quibusdam animi pariatur temporibus repellendus laboriosam perspiciatis recusandae eos ut sit illo laudantium atque similique quis dicta, nostrum est ipsam iusto! Atque doloribus nesciunt minima? Alias repellendus quam harum.</p>
+<h3>Lorem.</h3>
