@@ -1,0 +1,467 @@
+<!--DERS1
+    LİSTELER:
+    1- Sıralı Listeler: Ordered List: <ol></ol>
+
+            <ol>
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+            </ol>   
+
+        Listeyi 1-2-3 diye sıralandırmak yerine: 
+        <ol type: "a">deneme</ol>  tırnak işareti yerine: I,i,a,A yazabilirsin.
+
+            <ol type: "A">
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+            </ol>   
+
+    2- Sırasız Listeler: Unordered List: <ul></ul>
+
+            <ul>
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+
+            </ul>
+
+        Listeyi daha farklı şekillerde kullanabilmek için:
+        <ul style="list-style-type: square">deneme</ul> square yerine: disc, circle yazabilirsin.
+
+            <ul style="list-style-type: disc">
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+
+            </ul>
+
+        Listede şekilsiz olması için:
+        <ul style="list-style-type: none">deneme</ul>
+
+            <ul style="list-style-type: none">
+                <li>Liste *1*</li>
+                <li>Liste *2*</li>
+                <li>Liste *3*</li>
+            </ul>
+
+    ÖNEMLİ: <li></li> kullanmadan liste şeklinde göremezsin!
+
+-->
+
+<!--******************DERS2**************-->
+<!--
+    EMMET İLE HIZLI HTML YAPILARI OLUŞTURMA:
+    https://docs.emmet.io/cheat-sheet/
+
+    + Kardes oge
+    > icinde oge
+    ^ yukari cik ve oge olustur
+    * carp  p*3
+    lorem  anlamsız metin yazısı oluşturabilirsin.
+        lorem1 lorem2 gibi yanına sayı belirtirsen o kadar kelime koyar.
+    . class
+    # id
+
+
+    ÖRNEKLER:
+
+    h1+p+p+h2+p+p+p+p
+
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <h2></h2>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+
+    h1+p+p+h2+p+p+p+p ---kısa hali--- h1+p*2+h2+p*4
+
+    <p></p>
+    <p></p>
+    <h2></h2>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    ul>li*5
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+    ul>li*3^p*2+h3
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <p></p>
+    <p></p>
+    <h3></h3>
+
+    ul>li*3>lorem1^p*2>lorem4+h3>lorem1
+
+    <ul>
+    <li>Lorem.</li>
+    <li>Consequuntur.</li>
+    <li>Porro.</li>
+    <p>
+        Lorem ipsum dolor sit.
+        <h3>Lorem.</h3>
+    </p>
+    <p>
+        Quisquam dolores cumque dicta.
+        <h3>Minima.</h3>
+    </p>
+    </ul>
+
+    BU YUKARIDAKİ HATALI ONUN YERİNE:
+    ul>li*3>lorem1^^p*2>lorem^h3>lorem1
+
+
+    h3.deneme 
+    <h3 class="deneme"></h3>
+
+    h3 .deneme
+    h3 <div class="deneme"></div>
+
+
+    h3.deneme>lorem1
+    <h3 class="deneme">Lorem.</h3>
+
+
+    h3#idolussun>lorem1
+    <h3 id="idolussun">Lorem.</h3>
+
+
+    h3.deneme#idolussun>lorem1
+    <h3 class="deneme" id="idolussun">Lorem.</h3>
+
+    h3#idolussun.deneme>lorem1
+    <h3 id="idolussun" class="deneme">Lorem.</h3>
+
+    h3.birinci-class.ikinci-class
+    <h3 class="birinci-class ikinci-class"></h3>
+
+    h3.kodluyoruz.html
+    <h3 class="kodluyoruz html"></h3>
+
+    .tepki
+    <div class="tepki"></div>
+
+    ul>li.tepki
+    <ul>
+        <li class="tepki"></li>
+    </ul>
+
+    ul>.tepki
+    <ul>
+        <li class="tepki"></li>
+    </ul>
+
+
+    ul>li#id1+li#id2+li#id3
+
+    <ul>
+        <li id="id1"></li>
+        <li id="id2"></li>
+        <li id="id3"></li>
+    </ul>
+
+    DAHA KISA YOLU: $ kullanımı
+        
+    ul>li#id$*3
+    <ul>
+        <li id="id1"></li>
+        <li id="id2"></li>
+        <li id="id3"></li>
+    </ul>
+
+    p{}
+    <p>tag yazıyorum</p
+
+
+-->
+
+<!--******************DERS3**************-->
+<!--    IMG    -->
+<!--  https://picsum.photos/200/300  -->
+<!--
+
+<img src="https://assets.ubuntu.com/v1/f0bce376-AI_lrg_white.svg" alt="Ubuntu Gorseli">
+
+<img src="https://picsum.photos/200/300" alt="Lorem ipsum">
+
+<img src="image/1.jpg" alt="Gul">
+
+<img width="500" height="200" src="https://picsum.photos/200/300" alt="Lorem Ipsum">
+
+<img src="image/catal.jpg" title="catal Gorseli">
+-->
+
+<!--******************DERS4**************-->
+
+<!-- LINKLER -->
+
+<!--
+    -baska bir web sitesine git
+    -başka bir sayfaya git
+    -aynı sayfa içinde bir yere ---- ID bilgisine git 
+    -mail at
+    -telefon et 
+    href = ""
+
+
+    
+<ul>
+    <li>
+        <a href="https://kodluyoruz.org">
+            buraya gidilecek
+        </a>
+
+    </li>
+    <li>
+        <a href="https://kodluyoruz.org" target="_blank"> 
+            baska sayfaya gidecek
+        
+        </a>
+
+    </li>
+    <li>
+        <a href="iletisim.html">
+            Iletisim Sayfasina Git
+        </a>
+
+    </li>
+    <li>
+        <a href="#footer">
+            En alt kisima git
+        </a>
+    </li>
+    <li>
+        <a href="mailto:info@kodluyoruz.org">
+            Kodluyoruza mail at
+        </a>
+    </li>
+    <li>
+        <a href="tel:0555122356">
+            Tel ac
+
+        </a>
+    </li>
+</ul>
+ 
+
+-->
+
+<!--******************DERS25**************-->
+<!--
+
+    HTML ATTRIBUTES:
+
+    <img src="" alt=""> alt:resim gösterilemezse bu bilgi ortaya çıkar.
+
+    <img src="" alt="" class="" id="">
+
+    <a href="" id="" class="" data-id=""></a>
+
+    id unique dir. Biricik olduğu için tırnak içerisinde yazmayabiliriz. 
+
+    class:
+    HTML etiketinin hangi sınıfta olduğunu  belirtir. Aynı sınıf adı birden fazla HTML etiketine verebiliriz.
+
+    örn:
+    <img src="" alt="" class="documents">
+    <a href="" class="documents"></a>
+-->
+
+
+
+<!--******************DERS6**************-->
+<!--
+
+<p>Span:
+    Lorem ipsum dolor, elit. Error nam <strong> sit amet consectetur adipisicing</strong> ipsa quam 
+    <span style="color: red;">exercitationem asperiores</span> et quasi voluptate quibusdam aut maxime iusto, dicta sapiente consectetur nisi rem dolor sint debitis ut?
+</p>
+<p>Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipisicing elit. <em>Excepturi ab </em>  emcorporis at repellendus nobis porro modi, quibusdam atque <a href="#"> totam quisquam quis </a>  nihil dolor tempore exercitationem fuga laudantium adipisci, sed optio.</p>
+<h3><a href="#">Block Elementi</a></h3>
+<div>
+    <ul>
+        <li>
+            <a href="https://kodluyoruz.org">
+                buraya gidilecek
+            </a>
+
+        </li>
+        <li>
+            <a href="https://kodluyoruz.org" target="_blank"> 
+                baska sayfaya gidecek
+            
+            </a>
+
+        </li>
+        <li>
+            <a href="iletisim.html">
+                Iletisim Sayfasina Git
+            </a>
+
+        </li>
+        <li>
+            <a href="#footer">
+                En alt kisima git
+            </a>
+        </li>
+        <li>
+            <a href="mailto:info@kodluyoruz.org">
+                Kodluyoruza mail at
+            </a>
+        </li>
+        <li>
+            <a href="tel:0555122356">
+                Tel ac
+
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<img src="https://picsum.photos/200/300" alt="Lorem ipsum">
+
+<img src="image/1.jpg" alt="Gul">
+
+<a href="https://picsum.photos/200/300" target="_blank">
+    <img src="image/catal.jpg" alt="deneme">
+</a>
+
+<img width="500" height="200" src="https://picsum.photos/200/300" alt="Lorem Ipsum">
+
+<img src="image/catal.jpg" title="catal Gorseli">
+
+<br>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore quae libero quam eligendi, obcaecati veritatis doloribus assumenda recusandae! Omnis blanditiis veniam perspiciatis asperiores, reprehenderit labore dicta veritatis dolorum rerum?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis iste suscipit. Nihil quisquam consectetur veniam explicabo animi possimus facere illo incidunt aliquid tempora deleniti asperiores necessitatibus, a nisi expedita?
+<h1>jdfkajdsfklsjdflkjsdfk</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos accusamus sed provident culpa vel, dolorum saepe quaerat repellendus obcaecati. Architecto quo nobis illum rerum libero officia laborum sunt omnis reprehenderit?</p>
+
+<img src="https://picsum.photos/200/300" alt="Lorem ipsum">
+
+<img src="image/1.jpg" alt="Gul">
+
+<img width="500" height="200" src="https://picsum.photos/200/300" alt="Lorem Ipsum">
+
+<img src="image/catal.jpg" title="catal Gorseli">
+
+<ul>
+    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, eligendi nemo excepturi aspernatur in saepe odit quos itaque iure consequatur repudiandae ratione totam provident libero ex voluptatem quam eum voluptas.</li>
+    <li>Mollitia maiores numquam sunt itaque assumenda totam, tenetur ducimus, labore quis saepe animi molestiae dolore hic sequi voluptates aspernatur quia corrupti velit nisi! Voluptates nihil officiis assumenda, nesciunt cum repellendus!</li>
+    <li>Labore eligendi vero odio esse ullam, architecto nam, eaque voluptatum nesciunt ipsum aperiam saepe! Quam nam tempora tempore nisi labore mollitia aliquam, alias magni maiores. Tempora nam cum eveniet eum.</li>
+    <li>Fugiat ipsa perspiciatis iure nihil deleniti incidunt. Dolores, autem provident, consectetur accusamus cumque blanditiis facere laboriosam, voluptas quisquam dolorum suscipit deleniti. Molestias doloribus odit cum obcaecati non eaque, excepturi ratione.</li>
+    <li>Earum cupiditate ea soluta iste. Accusamus repellendus, mollitia suscipit aperiam minima ad ullam possimus quod voluptatum recusandae quasi ipsa unde quaerat, placeat officiis. Asperiores voluptas, laboriosam provident sint eum voluptatum.</li>
+    <li>Tempora, repellendus? Dolorum, id nesciunt! Totam quaerat dolor, sapiente voluptate ratione modi a nam dicta accusantium adipisci provident laudantium ex ipsam illo, quam nisi. Blanditiis repudiandae tempora placeat laboriosam esse.</li>
+</ul>
+
+
+<h2 id="footer"> En alt kisim</h2>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi saepe necessitatibus nihil modi veritatis architecto eveniet quos nemo exercitationem ducimus voluptas cupiditate, magni asperiores numquam illum provident aspernatur fuga tempora.
+Dolor vero excepturi eligendi eius, quia cum aut non pariatur debitis commodi veniam labore qui quas possimus dicta! Nobis aliquid neque fugiat asperiores adipisci, earum sit fugit quibusdam magni animi.
+Veritatis eius necessitatibus iusto tenetur voluptatibus quasi repudiandae vero illum minima voluptas quidem expedita nesciunt tempore totam ea temporibus non, in nostrum omnis. Tenetur earum libero ducimus et corporis hic.
+Incidunt saepe sequi facilis fugiat reprehenderit alias aut. Commodi, adipisci excepturi hic quis sed, dolores sunt impedit ratione ullam fuga numquam vitae aliquam accusantium dolorum corrupti ea laudantium quia? Eius?
+Dolore explicabo ratione libero veniam consequatur fuga saepe in facilis, rerum, dolorum cum placeat eaque magni neque sapiente laborum consequuntur non eos necessitatibus tempore aliquam odit quibusdam quia! Modi, asperiores.
+
+-->
+<!--**********************DERS7*************-->
+
+<!-- 
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodluyoruz- HTML</title>
+</head>
+<body>
+
+    <h1>DENEME</h1>
+    <ul>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Nam minima reiciendis pariatur.</li>
+        <li>Reprehenderit quidem laboriosam totam!</li>
+    </ul>
+
+
+
+    <ul id="nav">
+        <li class="item1"><a href="">Item 1</a></li>
+        <li class="item2"><a href="">Item 2</a></li>
+        <li class="item3"><a href="">Item 3</a></li>
+        <li class="item4"><a href="">Item 4</a></li>
+    </ul>
+    
+</body>
+</html>
+-->
+
+<!--**********************DERS8*************-->
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        h2 {
+
+            color:aqua;
+            font-size: 30px;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+   
+        Inline CSS etiket içinde style kullanımı
+        Internal CSS Dosyanın içerisinde head içinde onun en altında style etiketi içinde
+        External CSS head içerisinde link belirtilerek yazılır.
+
+
+    <h1 style="color: red;font-size: 64px">CSS DENEME</h1>
+    <h2 style="color: blue;font-size:10x;">InLine CSS.</h2>
+    <h2>Internal CSS</h2>
+    
+    <li>
+        
+        <a href="about-us.html"target="_blank">About-Us</a>
+        
+    </li>
+    <li>
+        <a href="contact.html"target="_blank">Contact</a>
+    </li>
+    
+</body>
+</html>
+-->
+
+<!--**********************DERS9*************-->
